@@ -142,3 +142,15 @@ while (computer.size() < 3) {
 - 미션은 [kotlin-baseball](https://github.com/woowacourse-precourse/kotlin-baseball-6) 저장소를 Fork & Clone해 시작한다.
 - **기능을 구현하기 전 `docs/README.md`에 구현할 기능 목록을 정리**해 추가한다.
 - 과제 진행 및 제출 방법은 [프리코스 과제 제출](https://github.com/woowacourse/woowacourse-docs/tree/master/precourse) 문서를 참고한다.
+
+  ##
+  
+1. main에 야구게임 시작 함수 지정
+2. 컴퓨터가 랜덤으로 숫자 3개 지정
+3. 플레이어가 3개의 숫자를 입력
+4. 같은 수가 같은 자리에 있으면 스트라이크
+5. 다른 자리에 있으면 볼
+6. 같은 수가 전혀 없으면 낫싱이란 힌트를 제공
+7. 플레이어가 컴퓨터가 선택한 숫자 3개를 모두 맞히면 게임이 종료
+8. 게임을 종료한 후 게임을 다시 시작하거나 완전히 종료하는 선택지 제공
+9. 사용자가 잘못된 값을 입력할 시 애플리케이션을 종료
